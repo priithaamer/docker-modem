@@ -1,5 +1,5 @@
 {
-  "name": "docker-modem",
+  "name": "@priithaamer/docker-modem",
   "description": "Docker remote API network layer module.",
   "version": "3.0.3",
   "author": "Pedro Dias <petermdias@gmail.com>",
@@ -19,8 +19,7 @@
   "dependencies": {
     "debug": "^4.1.1",
     "readable-stream": "^3.5.0",
-    "split-ca": "^1.0.1",
-    "ssh2": "^1.4.0"
+    "split-ca": "^1.0.1"
   },
   "devDependencies": {
     "chai": "~4.2.0",

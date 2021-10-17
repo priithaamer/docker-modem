@@ -21,19 +21,9 @@ var modem5 = new Modem({host: '127.0.0.1', port: 3000}); //defaults to http
 
 ### SSH
 
-You can connect to the Docker daemon via SSH in two ways:
-
-* Using the built-in SSH agent.
-* Implement your own custom agent.
+You can connect to the Docker daemon with your own custom agent.
 
 ``` js
-//built-in SSH agent
-var modem1 = new Modem({
-  prococol: 'ssh',
-  host: 'ssh://127.0.0.1',
-  port: 22
-});
-
 //custom agent
 var customAgent = myOwnSSHAgent({host: 'ssh://127.0.0.1', port: 22});
 var modem2 = new Modem({
